@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   
+  <test thread-count="5" name="Test">
+      <groups>
+<run>
+<include name="smokeTest"></include>
+</run>
+</groups>
+    <classes>
+      
+      <class name="com.crm.vtiger.CreatecontactTest"/>
+      
+      
+      
+      <class name="com.crm.vtiger.CreatecontactofaaajsinghTest"/>
+      
+      <class name="com.crm.vtiger.CreatecampaignTest"/>
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

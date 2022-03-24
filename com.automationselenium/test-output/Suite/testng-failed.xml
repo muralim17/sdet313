@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.vtiger.CreateOrganizationTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="aferclass"/>
+          <include name="createorganization"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.CreateOrganizationTest -->
+      <class name="com.crm.vtiger.CreatecampaignTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="aferclass"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="createcampaign"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.CreatecampaignTest -->
+      <class name="com.crm.vtiger.CreatecontactwithleadsourceTest">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="aftermethod"/>
+          <include name="aferclass"/>
+          <include name="createcontactwithleadsource"/>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftertest"/>
+          <include name="aftersuite"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.CreatecontactwithleadsourceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
